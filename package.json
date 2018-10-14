@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "a safe error handler inspired by golang approach",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "build": "tsc ",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/MehdiZonjy/error-safe/issues"
   },
-  "homepage": "https://github.com/MehdiZonjy/error-safe#readme"
+  "homepage": "https://github.com/MehdiZonjy/error-safe#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3"
+  }
 }
