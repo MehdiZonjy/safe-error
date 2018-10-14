@@ -1,6 +1,6 @@
 {
   "name": "safe-error",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "a safe error handler inspired by golang approach",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
