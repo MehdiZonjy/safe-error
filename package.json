@@ -1,5 +1,5 @@
 {
-  "name": "error-safe",
+  "name": "safe-error",
   "version": "0.0.1",
   "description": "a safe error handler inspired by golang approach",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MehdiZonjy/error-safe.git"
+    "url": "git+https://github.com/MehdiZonjy/safe-error.git"
   },
   "keywords": [
     "error",
@@ -20,9 +20,9 @@
   "author": "Mehdi Zonjy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MehdiZonjy/error-safe/issues"
+    "url": "https://github.com/MehdiZonjy/safe-error/issues"
   },
-  "homepage": "https://github.com/MehdiZonjy/error-safe#readme",
+  "homepage": "https://github.com/MehdiZonjy/safe-error#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.3.5",
