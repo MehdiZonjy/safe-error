@@ -1,0 +1,24 @@
+{
+  "name": "error-safe",
+  "version": "0.0.1",
+  "description": "a safe error handler inspired by golang approach",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehdiZonjy/error-safe.git"
+  },
+  "keywords": [
+    "error",
+    "safe",
+    "golang"
+  ],
+  "author": "Mehdi Zonjy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehdiZonjy/error-safe/issues"
+  },
+  "homepage": "https://github.com/MehdiZonjy/error-safe#readme"
+}
