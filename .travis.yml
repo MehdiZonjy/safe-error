@@ -1,9 +1,14 @@
 language: node_js
 node_js: 
   - "8"
+before_deploy:
+  - npm run setup
+  - npm run test
+  - npm run build  
 deploy:
   provider: npm
   email: "${NPM_EMAIL}"
+  skip_cleanup: true
   api_key: "${NPM_TOKEN}"
   on:
     tags: true
